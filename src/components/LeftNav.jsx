@@ -25,9 +25,9 @@ const LeftNav = () => {
 
   return (
     <div
-      className={`md:block w-[220px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-10 translate-x-[-240px] md:translate-x-0 transition-all ${mobileMenu ? "translate-x-[0px]" : ""
+      className={`md:block w-[220px] overflow-y-auto h-full py-4 absolute md:relative z-10 translate-x-[-240px] md:translate-x-0 transition-all ${mobileMenu ? "translate-x-[0px]" : ""
         }`}
-    >
+        style={{backgroundColor:"#0F0F0F"}}>
       <div className="flex px-5 flex-col">
         {categories.map((item) => {
           return (
@@ -40,7 +40,7 @@ const LeftNav = () => {
                   navigate("/");
                 }}
                 className={`${selectedCategory === item.name
-                  ? "bg-white/[0.15]"
+                  ? "bg-white/[0.15] font-semibold"
                   : ""
                   }`}
               />

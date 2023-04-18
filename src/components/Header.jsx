@@ -37,7 +37,7 @@ const Header = () => {
   const pageName = pathname?.split("/")?.filter(Boolean)?.[0];
 
   return (
-    <div className="sticky top-0 z-10 flex flex-row items-center justify-between h-14 px-4 md:px-5 bg-black dark:bg-black">
+    <div className="sticky top-0 z-10 py-1 flex flex-row items-center justify-between h-14 px-4 md:px-5 dark:bg-black" style={{backgroundColor:"#0F0F0F"}}>
       {loading && <Loader />}
 
       <div className="flex h-5 items-center">
@@ -100,7 +100,7 @@ const Header = () => {
         </div>
         <Link to={'/auth'}>
           <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4 cursor-pointer hover:scale-125">
-            <img src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg" alt="userImg" />
+            <img src="https://yt3.ggpht.com/yti/AHXOFjWWEKSRQ5yHkclr_FfAHBp_utYBP2GGM-MVOmRwCw=s88-c-k-c0x00ffffff-no-rj-mo" alt="userImg" />
           </div>
         </Link>
 

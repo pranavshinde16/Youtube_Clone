@@ -19,13 +19,13 @@ const SearchResultVideoCard = ({ video }) => {
           )}
         </div>
         <div className="flex flex-col ml-4 md:ml-6 mt-4 md:mt-0 overflow-hidden">
-          <span className="text-sm md:text-xl line-clamp-2 text-white" style={{ fontWeight: "400" }}>
+          <span className="text-normal md:text-xl line-clamp-2 text-white" style={{ fontWeight: "400" }}>
             {video?.title}
           </span>
           <div className="text-xs font-semibold truncate overflow-hidden" style={{ color: "#aaa" }}>
             <span>{` ${abbreviateNumber(
               video?.stats?.views,
-              2
+              0
             )} views`}</span>
             <span className="text-[20px] eading-none sm:font-semibold relative top-[-3px] mx-1" style={{ color: "#aaa" }}>
               .
@@ -44,7 +44,7 @@ const SearchResultVideoCard = ({ video }) => {
                 />
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex sm:flex-row">
               <span className="text-sm mt-2 text-white/[0.7] flex items-center hover-author">
                 {video?.author?.title}
                 {video?.author?.badges[0]?.type ===
