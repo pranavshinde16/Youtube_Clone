@@ -8,10 +8,10 @@ import VideoLength from "../shared/VideoLength";
 const VideoCard = ({ video }) => {
   return (
     <Link to={`/video/${video?.videoId}`}>
-          <div className="flex flex-col mb-8">
-        <div className="relative h-42 md:h-48 2xl:w-[380px] xl:h-[58] 2xl:h-[58] md:rounded-xl overflow-hidden ">
+      <div className="flex flex-col mb-8">
+        <div className="relative h-42 md:h-52 2xl:w-[380px] xl:h-[58] 2xl:h-[58] md:rounded-xl hover:rounded-none overflow-hidden ">
           <img
-            className="h-full w-full object-cover "
+            className="h-full w-full object-cover"
             src={video?.thumbnails[0]?.url}
             alt="Thumbnail"
           />
@@ -30,9 +30,9 @@ const VideoCard = ({ video }) => {
             </div>
           </div>
           <div className="flex flex-col ml-3 overflow-hidden">
-            <span className="text-[18px] font-medium line-clamp-2 tracking-tight" style={{ color: "#f1f1f1" }}>
+            <div className="text-[17.5px] 2xl:w-[340px] font-medium tracking-tight overflow-hidden" style={{ color: "#f1f1f1" }}>
               {video?.title}
-            </span>
+            </div>
             <span className="text-[15px] mt-1 text-white/[0.7] flex items-center hover-author">
               {video?.author?.title}
               {video?.author?.badges[0]?.type ===

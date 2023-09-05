@@ -19,7 +19,7 @@ import { BiLike } from "react-icons/bi";
 
 export const categories = [
 
-    { name: "India News", icon: <AiFillHome />, type: "home" },
+    { name: "Latest", icon: <AiFillHome />, type: "home" },
     { name: "Shorts", icon: <SiYoutubemusic />, type: "category" },
     { name: "Subscriptions", icon: <MdOutlineSubscriptions />, type: "subscription",divider: true,},
 

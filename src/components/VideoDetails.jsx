@@ -59,7 +59,8 @@ const VideoDetails = () => {
   }
 
   const slicing = (String) => {
-    return String.slice(0);
+    let str=String.slice(0);
+    return str;
   }
 
   return (
