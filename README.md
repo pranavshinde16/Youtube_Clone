@@ -34,13 +34,13 @@ Developed a YouTube-inspired clone using React.js, Tailwind CSS, and Node.js. Th
 
 ## <a name="features">🔋 Features</a>
 
-👉**Dynamic Search Bar:** Implemented a robust search bar using React.js, enabling users to enter keywords and find relevant videos. Leveraged the YouTube public API to retrieve real-time search results, ensuring accuracy and up-to-date content.
+👉 **Dynamic Search Bar :** Implemented a robust search bar using React.js, enabling users to enter keywords and find relevant videos. Leveraged the YouTube public API to retrieve real-time search results, ensuring accuracy and up-to-date content.
 
-👉**Categorized Sidebar:** Designed a user-friendly sidebar with distinct categories such as trending, shorts, movies, music, and news.Enabled seamless navigation, allowing users to click on a category and instantly populate the feed with related videos.
+👉 **Categorized Sidebar :** Designed a user-friendly sidebar with distinct categories such as trending, shorts, movies, music, and news.Enabled seamless navigation, allowing users to click on a category and instantly populate the feed with related videos.
 
-👉**Video Player Integration:** Integrated a video player component to allow users to watch selected videos directly within the application.
+👉 **Video Player Integration :** Integrated a video player component to allow users to watch selected videos directly within the application.
 
-👉**Comprehensive Video Details:** Displayed comprehensive information about each video, including title, description, upload date, and view counts.
+👉 **Comprehensive Video Details :** Displayed comprehensive information about each video, including title, description, upload date, and view counts.
 Integrated features for users to share videos on social media platforms and embed them on external websites.
 
 **Prerequisites**
