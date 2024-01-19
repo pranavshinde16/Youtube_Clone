@@ -8,7 +8,7 @@
     </a>
   <br />
   
-  <h1 align="center">A Full Stack Event Organizing Application</h1>
+  <h1 align="center">Youtube Clone - Video Streaming Application</h1>
   
 </div>
 
@@ -21,49 +21,24 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Developed a fullstack event organizing web application for managing events. It serves as a hub, spotlighting diverse events taking place globally. Featuring seamless payment processing through Stripe, you have the capability to purchase tickets for any event or even initiate and manage your own events.
+Developed a YouTube-inspired clone using React.js, Tailwind CSS, and Node.js. The application seamlessly integrates with the YouTube public API, offering dynamic search functionality and instant category-based video feeds. Explore a user-friendly interface with a responsive design, providing an immersive experience for discovering and enjoying a wide range of video content.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Node.js
-- Next.js
-- TypeScript
+- React.js
 - TailwindCSS
-- Stripe
-- Zod
-- React Hook Form
-- Shadcn
-- uploadthing
+- Javascript
+- HTML5
+- Rapid API
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Authentication (CRUD) with Clerk:** User management through Clerk, ensuring secure and efficient authentication.
-
-👉 **Events (CRUD):** Comprehensive functionality for creating, reading, updating, and deleting events, giving users full control over event management.
-- **Create Events:** Users can effortlessly generate new events, providing essential details such as title, date, location, and any additional information.
-- **Read Events:** Seamless access to a detailed view of all events, allowing users to explore event specifics, including descriptions, schedules, and related information.
-- **Update Events:** Empowering users to modify event details dynamically, ensuring that event information remains accurate and up-to-date.
-- **Delete Events:** A straightforward process for removing events from the system, giving administrators the ability to manage and curate the platform effectively.
-        
-👉 **Related Events:** Smartly connects events that are related and displaying on the event details page, making it more engaging for users
-    
-👉 **Organized Events:** Efficient organization of events, ensuring a structured and user-friendly display for the audience, i.e., showing events created by the user on the user profile
-    
-👉 **Search & Filter:** Empowering users with a robust search and filter system, enabling them to easily find the events that match their preferences.
-    
-👉 **New Category:** Dynamic categorization allows for the seamless addition of new event categories, keeping your platform adaptable.
-    
-👉 **Checkout and Pay with Stripe:** Smooth and secure payment transactions using Stripe, enhancing user experience during the checkout process.
-    
-👉 **Event Orders:** Comprehensive order management system, providing a clear overview of all event-related transactions.
-    
-👉 **Search Orders:** Quick and efficient search functionality for orders, facilitating easy tracking and management.
-
-and many more, including code architecture and reusability 
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
+👉**Dynamic Search Bar:** Implemented a robust search bar using React.js, enabling users to enter keywords and find relevant videos. Leveraged the YouTube public API to retrieve real-time search results, ensuring accuracy and up-to-date content..
+👉**Categorized Sidebar:** Designed a user-friendly sidebar with distinct categories such as trending, shorts, movies, music, and news.Enabled seamless navigation, allowing users to click on a category and instantly populate the feed with related videos.
+👉**Video Player Integration:** Integrated a video player component to allow users to watch selected videos directly within the application.
+👉**Comprehensive Video Details:** Displayed comprehensive information about each video, including title, description, upload date, and view counts.
+Integrated features for users to share videos on social media platforms and embed them on external websites.
 
 **Prerequisites**
 
