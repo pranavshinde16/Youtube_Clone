@@ -1,10 +1,10 @@
 <div align="start">
   <br />
     <a href="#" target="_blank">
-      <img src="https://github.com/pranavshinde16/Images/blob/main/project-2_img1.png" width="700" height="500" alt="Project Banner">
+      <img src="https://github.com/pranavshinde16/Images/blob/main/project-2_img1.png" width="1000" height="500" alt="Project Banner">
     </a>
     <a href="#" target="_blank">
-      <img src="https://github.com/pranavshinde16/Images/blob/main/project-2_img3.png" width="700" height="500" alt="Project Banner">
+      <img src="https://github.com/pranavshinde16/Images/blob/main/project-2_img3.png" width="1000" height="500" alt="Project Banner">
     </a>
   <br />
   
