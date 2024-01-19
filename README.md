@@ -13,7 +13,6 @@
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
-<br/>
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
