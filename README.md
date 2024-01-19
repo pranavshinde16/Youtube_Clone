@@ -43,7 +43,9 @@ Developed a YouTube-inspired clone using React.js, Tailwind CSS, and Node.js. Th
 👉 **Comprehensive Video Details :** Displayed comprehensive information about each video, including title, description, upload date, and view counts.
 Integrated features for users to share videos on social media platforms and embed them on external websites.
 
-**Prerequisites**
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
 
 Make sure you have the following installed on your machine:
 
